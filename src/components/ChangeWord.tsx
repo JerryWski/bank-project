@@ -6,10 +6,11 @@ const ChangeWord: React.FC = () => {
     <>
       <div className={styles.change_word}>
         {changeWord.map((word, index) => (
-          <p key={index} className={styles.first_word}>
+          <span key={index} className={styles.first_word}>
             {word}
-          </p>
+          </span>
         ))}
+
       </div>
     </>
   );

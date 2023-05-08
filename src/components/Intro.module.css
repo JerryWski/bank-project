@@ -24,11 +24,9 @@
   /* border-bottom: 4px solid grey;
   border-image: linear-gradient(to right, #bdb3b7, #ffffff) 1; */
 }
-.first_word {
-  font-size: 6.2rem;
-}
-.first_word, .second_word {
-  display: inline-block;
+.border_line {
+  border-bottom: 4px solid grey;
+  border-image: linear-gradient(to right, #bdb3b7, #ffffff) 1;
 }
 .unvisible_text {
   display: none;
