@@ -1,0 +1,8 @@
+.second_word {
+    font-size: 5.1rem;
+    display: inline-block;
+}
+.academy_word :nth-child(6) {
+    color: hsl(339, 82%, 43%);
+    font-size: 5.6rem;
+}
