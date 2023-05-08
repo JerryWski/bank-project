@@ -44,8 +44,11 @@ const AboutMe: React.FC = () => {
           </p>
         </div>
         <div className={styles.about_card}>
-          <img className={styles.about_photo}></img>
-          <p className={styles.about_alias}></p>
+          <img
+            src={require('../images/jerry-hero2.png')}
+            className={styles.about_photo}
+          ></img>
+          <p className={styles.about_alias}> Jarosław Wasilewski </p>
         </div>
       </div>
     </div>

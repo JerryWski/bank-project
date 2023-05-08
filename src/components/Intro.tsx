@@ -21,7 +21,9 @@ const Intro: React.FC = () => {
         </div>
       </div>
       <div className={styles.button_container}>
-        <button className={styles.button} onClick={handleScroll}>Przejdź do sekcji O mnie</button>
+        <button className={styles.button} onClick={handleScroll}>
+          Przejdź do sekcji O mnie
+        </button>
       </div>
     </div>
   );
