@@ -1,0 +1,18 @@
+.about_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1240px;
+    padding: 60px;
+}
+.about_wrapper {
+    border: 1px solid grey;
+    padding: 50px 50px 50px 240px;
+}
+.header {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.text {
+    margin: 20px;
+}
