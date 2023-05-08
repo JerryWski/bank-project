@@ -1,19 +1,29 @@
 .wrapper {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 .intro_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro_text :first-child {
+  font-size: 6.2rem;
+  border-bottom: 4px solid grey;
+  border-image: linear-gradient(to right, #bdb3b7, #ffffff) 1;
 }
 span {
-    font-size: 5.5rem;
-    text-transform: uppercase;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #122770;
+  letter-spacing: 7px;
+  font-weight: 600;
 }
 .visible_span {
-    display: inline-block;
+  font-size: 5.1rem;
+  display: inline-block;
 }
 .unvisible_span {
-    display: none;
+  display: none;
 }
