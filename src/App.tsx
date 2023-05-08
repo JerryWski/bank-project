@@ -1,5 +1,5 @@
 import Intro from './components/Intro';
-import styles from './App.module.css'
+import styles from './App.module.css';
 import AboutMe from './components/AboutMe';
 
 const App: React.FC = () => {

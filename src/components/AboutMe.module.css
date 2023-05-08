@@ -1,18 +1,23 @@
 .about_section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1240px;
-    padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1240px;
+  padding: 60px;
 }
 .about_wrapper {
-    border: 1px solid grey;
-    padding: 50px 50px 50px 240px;
+  color: #6e6e6e;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  padding: 50px 50px 50px 240px;
+  -webkit-box-shadow: 3px 7px 92px -12px rgb(168, 168, 175);
+  -moz-box-shadow: 3px 7px 92px -12px rgb(186, 186, 199);
+  box-shadow: 3px 7px 92px -12px rgb(165, 165, 170);
 }
 .header {
-    margin-left: 20px;
-    margin-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 .text {
-    margin: 20px;
+  margin: 20px;
 }
