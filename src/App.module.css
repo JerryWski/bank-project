@@ -1,0 +1,9 @@
+.app_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border: 33px solid transparent;
+  border-image: linear-gradient(to right,#921c53,#355c8b, #b30e52, #3b506a, #b30e52,#3b506a) 1;
+  padding: 20px;
+}
