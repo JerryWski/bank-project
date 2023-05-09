@@ -16,3 +16,19 @@
     )
     1;
 }
+
+@media (max-width: 900px) {
+  .app_container {
+    border: 15px solid transparent;
+    border-image: linear-gradient(
+        to right,
+        #921c53,
+        #355c8b,
+        #b30e52,
+        #3b506a,
+        #b30e52,
+        #3b506a
+      )
+      1;
+  }
+}

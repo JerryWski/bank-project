@@ -48,3 +48,20 @@
     filter: blur(10px);
   }
 }
+
+@media (max-width: 1100px){
+  .first_word {
+    font-size: 4rem;
+    text-align: left;
+  }
+}
+@media (max-width: 900px){
+  .change_word {
+    width: 100%;
+    text-align: center;
+    height: 20px;
+  }
+  .first_word {
+    font-size: 1.5rem;
+  }
+}

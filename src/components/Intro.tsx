@@ -14,11 +14,13 @@ const Intro: React.FC = () => {
   return (
     <div className={styles.intro_container}>
       <div className={styles.wrapper}>
-        <img
-          className={styles.intro_image}
-          src={require('../images/pm-logo.png')}
-          alt='logo'
-        ></img>
+        <div className={styles.image_container}>
+          <img
+            className={styles.intro_image}
+            src={require('../images/pm-logo.png')}
+            alt='logo'
+          ></img>
+        </div>
         <div className={styles.intro_text}>
           <ChangeWord />
           <AcademyWord />
@@ -26,7 +28,9 @@ const Intro: React.FC = () => {
             <p className={styles.third_word}>Jarosław</p>
           </div>
           <div className={styles.surname_word}>
-            <p className={styles.four_word}>Wasilewski</p>
+            <p className={styles.four_word}>
+              Wasile<span className={styles.four_word__span}>w</span>ski
+            </p>
           </div>
         </div>
       </div>
