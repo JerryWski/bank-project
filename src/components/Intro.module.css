@@ -29,7 +29,7 @@
 .intro_image {
   width: 100%;
   /* margin-left: 40px; */
-  /* animation: rotate 100s infinite both; */
+  animation: slide-in 6s forwards;
 }
 .intro_text {
   font-size: 5.1rem;
