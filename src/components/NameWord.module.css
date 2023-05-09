@@ -1,0 +1,32 @@
+.name_word {
+  top: 5%;
+  position: absolute;
+  opacity: 0;
+  animation: slide-in 5s 6s forwards;
+}
+.third_word {
+  font-size: 6.2rem;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+
+    filter: blur(10px);
+  }
+  25% {
+    opacity: 1;
+
+    filter: blur(0px);
+  }
+  75% {
+    opacity: 1;
+
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+
+    filter: blur(0px);
+  }
+}

@@ -22,8 +22,12 @@ const Intro: React.FC = () => {
         <div className={styles.intro_text}>
           <ChangeWord />
           <AcademyWord />
-          <p className={styles.unvisible_text}>Jarosław</p>
-          <p className={styles.unvisible_text}>Wasilewski</p>
+          <div className={styles.name_word}>
+            <p className={styles.third_word}>Jarosław</p>
+          </div>
+          <div className={styles.surname_word}>
+            <p className={styles.four_word}>Wasilewski</p>
+          </div>
         </div>
       </div>
       <div className={styles.button_container}>
