@@ -7,7 +7,11 @@ import AcademyWord from './AcademyWord';
 const Intro: React.FC = () => {
   const handleScroll = (): void => {
     const aboutMeSection = document.getElementById('about-me');
-    aboutMeSection?.scrollIntoView({ behavior: 'smooth' });
+    if (aboutMeSection) {
+      const marginTop = 150;
+      const topOffset = aboutMeSection.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({ top: topOffset - marginTop, behavior: 'smooth' });
+    }
   };
   // const changeWord = 'Change'.split('');
 
